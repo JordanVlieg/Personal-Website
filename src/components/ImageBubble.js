@@ -5,9 +5,7 @@ import styled from 'styled-components'
 const StyledImage = styled.img`
   object-fit: cover;
   border-radius: 100%;
-  border: 5px solid rgb(140, 208, 36);
-  display: flex;
-  flex-direction: column;
+  border: 3px solid rgb(140, 208, 36);
 `
 
 export default class ImageBubble extends Component {
