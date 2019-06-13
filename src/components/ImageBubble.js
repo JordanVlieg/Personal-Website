@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import headshot from '../assets/headshot.jpg';
 import styled from 'styled-components'
+import colours from '../Colours'
 
 const StyledImage = styled.img`
   object-fit: cover;
   border-radius: 100%;
-  border: 3px solid rgb(140, 208, 36);
+  border: 3px solid ${colours.blue};
 `
 
 export default class ImageBubble extends Component {

@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
+import colours from '../Colours'
 
 const Social = styled.a`
   display: inline-block;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  background-color: ${colours.grey};
   &:hover {
       box-shadow: 0 2px 16px 0 rgba(0,0,0,.24), 0 17px 50px 0 rgba(0,0,0,.19);
   }
@@ -39,7 +41,8 @@ const Linkedin = styled(Social)`
 `
 
 const PageFoot = styled.div`
-  background: rgb(140, 208, 36);
+  //background: rgb(140, 208, 36);
+  background-color: ${colours.blue};
   display: flex;
   flex-direction: column;
   height: 15vh;
@@ -54,7 +57,7 @@ export default class Foot extends Component {
       <PageFoot>
         <div>
           <Email href="mailto:jordan@vlieg.ca" />
-          <Linkedin href="https://linkedin.com/JordanVlieg"/>
+          <Linkedin href="https://www.linkedin.com/in/jordan-vlieg-0090296b/"/>
           <Github href="https://github.com/JordanVlieg"/>
           <Facebook href="https://facebook.com/JordanVlieg"/>
         </div>

@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
+import colours from '../Colours'
   
 const StyledButton = styled.div`
-  background: rgb(140, 208, 36);
+  background: ${colours.blue};
   border-radius: 3px;
-  border: 2px solid rgb(140, 208, 36);
+  border: 2px solid ${colours.blue};
   padding: 0.25em 1em;
 `
 
