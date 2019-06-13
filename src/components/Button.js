@@ -10,9 +10,6 @@ const StyledButton = styled.div`
 `
 
 export default class Button extends Component {
-  constructor(props) {
-    super(props)
-  }
   render() {
     return (
       <StyledButton className={this.props.className} onClick={this.props.onClick}>

@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ImageBubble from './ImageBubble'
 import PageFoot from './PageFoot'
 import Button from './Button'
 
-import logo from '../logo.svg';
-import resume from '../assets/JVlieg_Resume.pdf';
-
+import resume from '../assets/JVlieg_Resume.pdf'
 import styled from 'styled-components'
+import colours from '../Colours'
 
 const MainBox = styled.div`
   display: flex;
@@ -17,24 +16,27 @@ const MainBox = styled.div`
 `
 
 const ResumeButton = styled(Button)`
+  color: ${colours.grey};
+  font-size: 24px;
   display: inline-block;
 `
 
 const Headshot = styled(ImageBubble)`
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin: 30px;
 `
 
 const Center = styled.div`
+  color: white;
   display: inline-block;
 `
 
 function App() {
   return (
-    <div> 
+    <div>
       <MainBox>
-        <Headshot path="headshot.jpg"/>  
+        <Headshot path="headshot.jpg"/>
         <Center>
           <h1>
             Welcome!  I'm Jordan.
@@ -43,7 +45,7 @@ function App() {
             I'm a software development consultant
           </h3>
           <p>
-            This site is very much a work in progress.  Last edited on 2019-05-05.
+            This site is very much a work in progress.  Last edited on 2019-06-12.
           </p>
           <ResumeButton onClick={() => window.location = resume}>
             Review My Resume
