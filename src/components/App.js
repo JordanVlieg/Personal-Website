@@ -41,11 +41,14 @@ function App() {
           <h1>
             Welcome!  I'm Jordan.
           </h1>
+          <h2>
+            I'm a software developer with experience in full stack applications.
+          </h2>
           <h3>
-            I'm a software development consultant
+            I am currently looking for new work.
           </h3>
           <p>
-            This site is very much a work in progress.  Last edited on 2019-06-12.
+            Located in Vancouver B.C., but willing to relocate.  I have experience with many technologies including C#, React, C, Java, Python
           </p>
           <ResumeButton onClick={() => window.location = resume}>
             Review My Resume

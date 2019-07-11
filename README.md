@@ -1,3 +1,6 @@
+## This is the repository for my personal website.  I built it using react.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
