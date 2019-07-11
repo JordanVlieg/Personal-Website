@@ -48,7 +48,7 @@ function App() {
             I am currently looking for new work.
           </h3>
           <p>
-            Located in Vancouver B.C., but willing to relocate.  I have experience with many technologies including C#, React, C, Java, Python
+            Located in Vancouver B.C. but willing to relocate.  I have experience with C#, React, C, Java, Python, and more!
           </p>
           <ResumeButton onClick={() => window.location = resume}>
             Review My Resume
