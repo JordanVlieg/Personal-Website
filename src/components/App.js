@@ -13,6 +13,9 @@ const MainBox = styled.div`
   justify-content: center;
   height: 85vh;
   background: rgb(61, 62, 65);
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 const ResumeButton = styled(Button)`
@@ -24,12 +27,12 @@ const ResumeButton = styled(Button)`
 const Headshot = styled(ImageBubble)`
   width: 300px;
   height: 300px;
-  margin: 30px;
+  margin: 15px;
 `
 
 const Center = styled.div`
   color: white;
-  display: inline-block;
+  margin: 15px;
 `
 
 function App() {
