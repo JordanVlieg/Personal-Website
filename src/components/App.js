@@ -12,8 +12,10 @@ const MainBox = styled.div`
   align-items: center;
   justify-content: center;
   height: 85vh;
+  overflow: auto;
   background: rgb(61, 62, 65);
-  @media (max-width: 768px) {
+  flex-direction: row;
+  @media (max-width: 700px) {
     flex-direction: column;
   }
 `
@@ -22,17 +24,25 @@ const ResumeButton = styled(Button)`
   color: ${colours.grey};
   font-size: 24px;
   display: inline-block;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 `
 
 const Headshot = styled(ImageBubble)`
-  width: 300px;
-  height: 300px;
-  margin: 15px;
+  width: 30vh;
+  height: 30vh;
 `
 
-const Center = styled.div`
+const TextContent = styled.div`
   color: white;
   margin: 15px;
+  height: 30vh;
+`
+
+const ButtonBox = styled.div`
+  @media (max-width: 700px) {
+    text-align: center
+  }
 `
 
 function App() {
@@ -40,7 +50,7 @@ function App() {
     <div>
       <MainBox>
         <Headshot path="headshot.jpg"/>
-        <Center>
+        <TextContent>
           <h1>
             Welcome!  I'm Jordan.
           </h1>
@@ -53,10 +63,12 @@ function App() {
           <p>
             Located in Vancouver B.C. but willing to relocate.  I have experience with C#, React, C, Java, Python, and more!
           </p>
-          <ResumeButton onClick={() => window.location = resume}>
-            Review My Resume
-          </ResumeButton>
-        </Center>
+          <ButtonBox>
+            <ResumeButton onClick={() => window.location = resume}>
+              Review My Resume
+            </ResumeButton>
+          </ButtonBox>
+        </TextContent>
       </MainBox>
       <PageFoot />
     </div>
