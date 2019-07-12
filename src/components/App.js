@@ -31,6 +31,7 @@ const ResumeButton = styled(Button)`
 const Headshot = styled(ImageBubble)`
   width: 30vh;
   height: 30vh;
+  margin 0px 20px;
 `
 
 const TextContent = styled.div`
