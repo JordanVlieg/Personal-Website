@@ -58,8 +58,12 @@ function App() {
           <h2>
             I'm a software developer with experience in full stack applications.
           </h2>
+          <h3>
+            I am currently open to new opportunities.
+          </h3>
           <p>
-            Located in San Francisco.  I have experience with C#, Ruby, React, C, Java, Python, and more!
+            Located in San Francisco.  I have experience with Golang, C#, Ruby, React, C, Java, and more!
+            A passion for building secure systems, protecting user data, and preventing fraud.
           </p>
           <ButtonBox>
             <ResumeButton onClick={() => window.location = resume}>
