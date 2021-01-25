@@ -63,6 +63,8 @@ function App() {
           </h3>
           <p>
             Located in San Francisco.  I have experience with Golang, C#, Ruby, React, C, Java, and more!
+          </p>
+          <p>
             A passion for building secure systems, protecting user data, and preventing fraud.
           </p>
           <ButtonBox>
