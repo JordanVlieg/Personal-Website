@@ -7,6 +7,7 @@ const StyledButton = styled.div`
   border-radius: 3px;
   border: 2px solid ${colours.blue};
   padding: 0.25em 1em;
+  cursor: pointer;
 `
 
 export default class Button extends Component {
