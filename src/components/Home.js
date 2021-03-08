@@ -60,7 +60,7 @@ export default class Home extends Component {
               I'm a software developer with experience in full stack applications.
             </h2>
             <h3>
-              I am currently open to new opportunities.
+              I am NOT currently open to new opportunities.
             </h3>
             <p>
               Located in San Francisco.  I have experience with Golang, C#, Ruby, React, C, Java, and more!
